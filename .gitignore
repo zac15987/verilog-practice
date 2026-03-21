@@ -1,0 +1,21 @@
+# Quartus build directories
+db/
+incremental_db/
+output_files/
+
+# Quartus workspace file
+*.qws
+
+# Simulation (ignore all, then whitelist .vwf waveform definitions)
+simulation/
+
+# ModelSim / QuestaSim
+*.wlf
+*.vstf
+*.ucdb
+
+# Misc
+*.bak
+*.orig
+*.swp
+*~
