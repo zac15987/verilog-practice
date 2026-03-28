@@ -23,7 +23,3 @@ Higher-level modules reference lower-level ones via Verilog instantiation (not Q
 ## Simulation
 
 Simulation uses Quartus Vector Waveform Files (`.vwf`) via the built-in **qsim** flow (not standalone ModelSim). Waveform tests are defined in the Quartus GUI.
-
-## Editor Theme
-
-`quartus2_vscode_dark_theme.ini` contains a VS Code Dark+ color scheme and font settings (Cascadia Code, fallback Consolas) for the Quartus text editor. Run `install_dark_theme.bat` to auto-apply to `%USERPROFILE%\quartus2.qreg` (detects all Quartus version sections).
