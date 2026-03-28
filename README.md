@@ -23,4 +23,6 @@ Verilog 數位邏輯練習專案，使用 **Quartus II 13.1 Web Edition** 開發
 
 ## Editor 配色
 
-`quartus2_vscode_dark_theme.ini` 提供 VS Code Dark+ 風格的 Quartus 文字編輯器配色，安裝方式請參考檔案內的說明。
+`quartus2_vscode_dark_theme.ini` 提供 VS Code Dark+ 風格的 Quartus 文字編輯器配色與字體設定（Cascadia Code 14pt，fallback Consolas）。
+
+**快速安裝：** 雙擊 `install_dark_theme.bat`，自動寫入 `%USERPROFILE%\quartus2.qreg`（自動偵測所有 Quartus 版本區段）。

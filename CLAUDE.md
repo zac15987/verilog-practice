@@ -26,4 +26,4 @@ Simulation uses Quartus Vector Waveform Files (`.vwf`) via the built-in **qsim**
 
 ## Editor Theme
 
-`quartus2_vscode_dark_theme.ini` contains a VS Code Dark+ color scheme for the Quartus text editor. See the file header for installation instructions (modify `quartus2.qreg`).
+`quartus2_vscode_dark_theme.ini` contains a VS Code Dark+ color scheme and font settings (Cascadia Code, fallback Consolas) for the Quartus text editor. Run `install_dark_theme.bat` to auto-apply to `%USERPROFILE%\quartus2.qreg` (detects all Quartus version sections).
